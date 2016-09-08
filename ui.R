@@ -8,7 +8,7 @@ shinyUI(fluidPage(
       helpText("Type in a stock to examine. 
         Information will be collected from Yahoo Finance."),
     
-      textInput("symb", "Symbol", "SPY"),
+      textInput("symb", "Symbol", "GOOG"),
     
       dateRangeInput("dates", 
         "Date range",
