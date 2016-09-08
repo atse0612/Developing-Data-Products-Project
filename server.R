@@ -7,7 +7,7 @@ source("helpers.R")
 shinyServer(function(input, output) {
   
   dataInput <- reactive({  
-    getSymbols(input$symb, src = "google", 
+    getSymbols(input$symb, src = "yahoo", 
                from = input$dates[1],
                to = input$dates[2],
                auto.assign = FALSE)
